@@ -1,0 +1,38 @@
+img {
+    max-width: 320px;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.bg {
+    background-color: azure;
+    height: 370px;
+    margin: 10px 0;
+}
+
+.tittle {
+    color: rgb(64, 64, 179);
+}
+
+.paragrafo {
+    color: rgb(53, 54, 54);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn:hover {
+    background-color: rgb(72, 72, 235);
+}
